@@ -1,0 +1,6 @@
+<h1>List of {{pt}}</h1>
+<ul>
+    {% for p in pets%}
+    <li><a href= "/animals/{{pt}}/{{loop.index0}}">{{p.name}}</a> </li>
+    {% endfor %}
+</ul>
